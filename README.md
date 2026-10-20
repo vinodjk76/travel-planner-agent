@@ -1,3 +1,4 @@
+Travel Planner Agent is a small CLI application that accepts trip preferences, runs a CrewAI-based planner, and prints a personalized itinerary. The README describes three agents and destination research, day-by-day planning, and budget breakdowns. The CLI-to-crew call is visible in the excerpt; the agent implementation was not sampled, so links from the crew to those documented capabilities are unverified.
 # Travel Planner Agent
 
 Three-agent CrewAI system that creates personalized travel itineraries with destination research, day-by-day plans, and budget breakdown.
