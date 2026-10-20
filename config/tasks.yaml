@@ -1,0 +1,27 @@
+research_task:
+  description: >
+    Research {destination} for a {days}-day trip.
+    Cover: best time to visit, neighborhoods to stay in, must-see attractions,
+    local food scene, transportation tips, and cultural customs to know.
+    Traveler interests: {interests}
+  expected_output: >
+    Destination brief with key areas, attractions, food, and practical tips.
+  agent: destination_researcher
+
+planning_task:
+  description: >
+    Create a detailed, day-by-day {days}-day travel itinerary for {destination}.
+    Incorporate the research insights gathered by the researcher. Ensure the pace 
+    matches a realistic vacation flow and aligns with these traveler interests: {interests}.
+  expected_output: >
+    A comprehensive day-by-day itinerary with morning, afternoon, and evening activities.
+  agent: travel_planner
+
+budget_task:
+  description: >
+    Analyze the planned itinerary for {destination} and estimate realistic costs.
+    Break down expenses (accommodation, food, transit, activities) to ensure everything 
+    fits comfortably within a total budget of ${budget}. Provide actionable cost-saving tips.
+  expected_output: >
+    An itemized budget breakdown with a total cost estimation and money-saving recommendations.
+  agent: budget_analyst

@@ -1,0 +1,16 @@
+# Python environment caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment configurations
+.env
+.env.*
+!.env.example
+
+# IDE specific settings
+.vscode/
+.idea/
