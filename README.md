@@ -18,3 +18,4 @@ cp .env.example .env
 python agent.py --destination "Tokyo, Japan" --days 7 --budget 3000
 python agent.py --destination "Paris, France" --days 5 --budget 5000 --interests "art, wine, architecture"
 ```
+<img width="6216" height="4189" alt="diagram" src="https://github.com/user-attachments/assets/0e6cb788-fe58-4900-ba76-6c49c8489e6b" />
